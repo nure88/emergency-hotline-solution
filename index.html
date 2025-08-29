@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Service Directory</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-[#F5FFF6] font-sans">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+      <img src="/assets/logo.png" class="w-8 h-8 rounded-full" />
+      <span class="font-semibold text-lg text-[#1E293B]">Emergency Service</span>
+    </div>
+    <div class="flex items-center gap-6">
+      <div class="flex bg-green-100 px-4 py-2 justify-center rounded-2xl items-center gap-1 text-gray-700">
+        <!-- <i class='bx bx-heart text-red-500 text-xl'></i> -->
+        <span id="heartCount" class="font-bold">0</span>
+        <img src="/assets/heart.png" class="w-5 h-5 rounded-full" />
+      </div>
+      <div class="flex bg-green-100 px-4 py-2 justify-center rounded-2xl items-center gap-1 text-gray-700">
+        <!-- <i class='bx bx-coin-stack text-yellow-500 text-xl'></i> -->
+        <span id="coinCount" class="font-bold">100</span>
+        <img src="/assets/coin.png" alt="coin image" class="h-5 w-5">
+      </div>
+      <div class="flex items-center gap-1 text-gray-700 bg-green-500 text-white px-3 py-1 rounded-full">
+        <span id="copyCount">0</span> Copy
+      </div>
+    </div>
+  </nav>
+
+         
+  <!-- Hero -->
+
+<script src="script.js" defer></script>
+</body>
+</html>
