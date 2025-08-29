@@ -48,7 +48,15 @@
       <!-- Cards dynamically injected -->
     </div>
 
-
+    <!-- Call History -->
+    <aside class="bg-white shadow rounded-2xl p-4">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="font-semibold flex items-center gap-2"><i class='bx bx-time-five'></i> Call History</h2>
+        <button onclick="clearHistory()" class="bg-green-500 hover:bg-green-600 text-white px-4 py-1 rounded-full text-sm">Clear</button>
+      </div>
+      <ul id="historyList" class="space-y-2 text-sm text-gray-700"></ul>
+    </aside>
+  </main>
 
 <script src="script.js" defer></script>
 </body>
