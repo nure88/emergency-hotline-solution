@@ -78,4 +78,4 @@ function clearHistory(){
 }
 
 // Init
-renderCards();
+renderCards(); 
